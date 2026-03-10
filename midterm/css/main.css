@@ -1,0 +1,113 @@
+/* =============== RESET ================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* =============== HEADER ================= */
+header {
+    position: relative;
+    text-align: center;
+}
+
+header img {
+    width: 100%;
+    height: auto;
+}
+
+header h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 3rem;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+}
+
+/* =============== ARTICLE ================= */
+article {
+    margin: 20px;
+}
+
+article img {
+    float: left;
+    width: 300px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+article p {
+    text-align: justify;
+}
+
+/* =============== FACTS ================= */
+.facts {
+    margin: 20px;
+}
+
+.facts h2 {
+    margin-bottom: 10px;
+}
+
+.facts ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+/* =============== FORM ================= */
+.form-section {
+    margin: 20px;
+}
+
+.form-section h2 {
+    margin-bottom: 10px;
+}
+
+.form-section form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+
+.form-section label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.form-section input,
+.form-section textarea {
+    padding: 8px;
+    font-size: 1rem;
+}
+
+.form-section textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+.form-section button {
+    margin-top: 15px;
+    padding: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+/* =============== RESPONSIVE ================= */
+@media (max-width: 768px) {
+    article img {
+        float: none;
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+}

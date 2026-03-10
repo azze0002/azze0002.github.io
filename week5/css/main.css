@@ -1,0 +1,33 @@
+body{
+    background-color: brown;
+}
+/* changing color of headerbg */
+header{
+    background-color: darkmagenta;
+    padding:20px ;
+    margin: 20px;
+}
+p{
+    color: darkblue;
+}
+h1, h2, h3{
+    text-decoration: underline;
+}
+section p{
+    border: 2px solid black;
+}
+#aboutus-id{ 
+    background-color: azure;
+}
+/* using class to target an element */
+.impo-para{
+    /* text-transform:uppercase; */
+    background-color: cadetblue;
+    color: aliceblue;
+}
+section ul li:nth-child(odd){
+    background-color: gold;
+}
+
+
+
