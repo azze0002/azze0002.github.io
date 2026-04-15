@@ -1,0 +1,20 @@
+.box{
+    width: 100px; 
+    height: 100px;
+    background-color: lightcoral;
+    border: 2px solid black;
+}
+.boxes{
+    border: 2px solid black;
+    display: flex;
+    /* flex-direction: row-reverse */
+    /* flex-direction: column-reverse; */
+    flex-wrap: wrap;
+}
+.boxes1{
+    display: flex;
+    /* justify-content: flex-end; */
+    /* justify-content: center; */
+    /* justify-content: space-around; */
+    justify-content: space-evenly;
+}
